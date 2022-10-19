@@ -1,13 +1,10 @@
-body {
-  background-color: black;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.container-principal {
-  background-image: url("../images/home/01.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: right;
-  height: 100vh;
+.header {
+  font-size: 12px;
 }
 
 .logoHeader {
@@ -15,10 +12,242 @@ body {
   height: auto;
 }
 
-.conteudo1 {
-  width: 400px;
+.arrowDown {
+  width: 100px;
+  height: auto;
+}
+
+.container00 {
+  min-height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.container01 {
+  background-image: url("../images/home/01.jpg");
+}
+
+.container02 {
+  background-image: url("../images/home/02.gif");
+}
+
+.container03 {
+  background-image: url("../images/home/03.jpg");
+}
+
+.container04 {
+  background-image: url("../images/home/04.jpg");
+}
+
+.tittlePadding {
+  padding-top: 28vh;
+  color: white;
+}
+
+.footer {
+  height: 110px;
+  font-size: 12px;
+  background-color: black;
+}
+
+.contact-icon {
+  width: 23px;
+  height: auto;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container05 {
+  background-image: url("../images/falcon9/01.jpg");
+}
+
+.container06 {
+  background-image: url("../images/falcon9/02.jpg");
+}
+
+.container07 {
+  background-color: black;
+}
+
+.container08 {
+  background-image: url("../images/falcon9/08.jpg");
+  color: white;
+}
+
+.container09 {
+  background-color: black;
+}
+
+.container10 {
+  background-color: black;
+  color: white;
+}
+
+.contPrincipal {
+  font-size: 86px;
+  width: auto;
+}
+
+.contSecond {
+  font-size: 26px;
+  width: auto;
+}
+
+.firstTitle {
+  font-size: 85px;
+  font-family: Helvetica, sans-serif;
+}
+
+.secondGrid {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+}
+
+.secondText {
+  padding-top: 23vh;
+  padding-left: 6vh;
+  width: 50%;
+  color: white;
+  font-size: 20px;
+}
+
+.trofeuGrid {
+  padding-top: 25vh;
+  padding-left: 25vh;
+  width: 50%;
+}
+
+.table {
+  color: white;
+}
+
+.contact {
+  padding-top: 45vh;
+  color: white;
+}
+
+@media (max-width: 700px) {
+  .firstTitle {
+    font-size: 50px;
+  }
+  .contPrincipal {
+    font-size: 40px;
+  }
+  .contSecond {
+    font-size: 10px;
+  }
+  .secondText {
+    font-size: 13px;
+    width: 73%;
+  }
+}
+@media (max-width: 1032px) {
+  .trofeuGrid {
+    padding-top: 10vh;
+    padding-left: 12vh;
+  }
+  .secondText {
+    padding-top: 12vh;
+  }
+}
+@media (max-width: 426px) {
+  .trofeuGrid {
+    font-size: 12px;
+    padding-left: 1vh;
+    width: 60%;
+  }
+  .contact2 {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+  }
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: black;
+}
+
+.container15 {
+  background-image: url("../images/humanFlight/01.jpg");
+}
+
+.container16 {
+  background-image: url("../images/humanFlight/02.jpg");
+}
+
+.container17 {
+  background-image: url("../images/humanFlight/03.jpg");
+}
+
+.container18 {
+  background-image: url("../images/humanFlight/04.jpg");
+}
+
+.container19 {
+  background-image: url("../images/humanFlight/05.jpg");
+}
+
+.secondSpace {
+  width: 60%;
+}
+
+.textRight {
+  padding-left: 102vh;
   padding-top: 25vh;
   color: white;
+}
+
+.textLeft {
+  padding-left: 12vh;
+  padding-top: 25vh;
+  color: white;
+}
+
+.titulo {
+  font-size: 50px;
+}
+
+.paragraph {
+  font-size: 20px;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .textLeft {
+    padding-left: 5vh;
+  }
+  .textRight {
+    padding-left: 75vh;
+  }
+}
+@media (max-width: 426px) {
+  .textLeft {
+    padding-left: 5vh;
+  }
+  .textRight {
+    padding-left: 20vh;
+  }
+  .paragraph {
+    font-size: 15px;
+  }
+}
+@media (max-width: 330px) {
+  .firstTitle {
+    font-size: 40px;
+  }
+  .tittlePadding {
+    padding-top: 10vh;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,22 +1,51 @@
-body{
-    background-color: black;
+*{
+    margin: 0;
+    padding: 0;
 }
 
-.container-principal{
-    background-image: url("../images/home/01.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: right;
-    height: 100vh;
+.header{
+    font-size: 12px;
 }
 
 .logoHeader{
     width: 240px;
     height: auto;
 }
+.arrowDown{
+    width: 100px;
+    height: auto;
 
-.conteudo1{
-    width: 400px;
-    padding-top: 25vh;
+}
+
+.container00{
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.container01{
+    background-image: url("../images/home/01.jpg");
+}
+.container02{
+    background-image: url("../images/home/02.gif");
+}
+.container03{
+    background-image: url("../images/home/03.jpg");
+}
+.container04{
+    background-image: url("../images/home/04.jpg");
+}
+.tittlePadding{
+    padding-top: 28vh;
     color: white;
 }
+.footer{
+    height: 110px;
+    font-size: 12px;
+    background-color: black;
+}
+.contact-icon {
+    width: 23px;
+    height: auto;
+}
+

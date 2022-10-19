@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: black;
+}
+.container15{
+    background-image: url("../images/humanFlight/01.jpg");
+}
+.container16{
+    background-image: url("../images/humanFlight/02.jpg");
+}
+.container17{
+    background-image: url("../images/humanFlight/03.jpg");
+}
+.container18{
+    background-image: url("../images/humanFlight/04.jpg");
+}
+.container19{
+    background-image: url("../images/humanFlight/05.jpg");
+}
+
+.secondSpace{
+    width: 60%;
+}
+.textRight{
+    padding-left: 102vh;
+    padding-top: 25vh;
+    color: white;
+}
+.textLeft{
+    padding-left: 12vh;
+    padding-top: 25vh;
+    color: white;
+}
+.titulo{
+    font-size: 50px;
+}
+
+
+.paragraph{
+    font-size: 20px;
+    color: white;
+}
+
+@media(max-width: 768px){
+    .textLeft{
+        padding-left: 5vh;
+    }
+    .textRight{
+        padding-left: 75vh;
+    }
+}
+
+@media(max-width: 426px){
+    .textLeft{
+        padding-left: 5vh;
+    }
+    .textRight{
+        padding-left: 20vh;
+    }
+    .paragraph{
+        font-size: 15px;
+    }
+    
+}
+
+@media(max-width: 330px){
+    .firstTitle{
+        font-size: 40px;
+    }
+    .tittlePadding{
+        padding-top: 10vh;
+    }
+}
