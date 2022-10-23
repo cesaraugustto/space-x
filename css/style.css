@@ -69,17 +69,34 @@
   background-image: url("../images/falcon9/02.jpg");
 }
 
-
-
 .container08 {
   background-image: url("../images/falcon9/08.jpg");
   color: white;
 }
 
-
 .container10 {
   background-color: black;
   color: white;
+}
+
+.carrossel101 {
+  background-image: url("../images/falcon9/03.jpg");
+}
+
+.carrossel102 {
+  background-image: url("../images/falcon9/04.jpg");
+}
+
+.carrossel103 {
+  background-image: url("../images/falcon9/05.jpg");
+}
+
+.carrossel104 {
+  background-image: url("../images/falcon9/06.jpg");
+}
+
+.carrossel105 {
+  background-image: url("../images/falcon9/07.jpg");
 }
 
 .contPrincipal {
@@ -110,6 +127,28 @@
   width: 50%;
   color: white;
   font-size: 20px;
+}
+
+.SubTitleCarrossel {
+  padding-top: 15%;
+  padding-left: 12%;
+  color: white;
+}
+
+.TitleCarrossel {
+  padding-left: 12%;
+  color: white;
+}
+
+.tableCarrossel {
+  margin-left: 12%;
+  width: 550px;
+}
+
+.paragraphCarrossel {
+  color: white;
+  margin-left: 12%;
+  width: 550px;
 }
 
 .trofeuGrid {
@@ -161,6 +200,24 @@
     display: flex;
     flex-direction: row;
     gap: 5px;
+  }
+  .SubTitleCarrossel {
+    padding-top: 5%;
+    padding-left: 5%;
+    color: white;
+  }
+  .TitleCarrossel {
+    padding-left: 5%;
+    color: white;
+  }
+  .tableCarrossel {
+    margin-left: 5%;
+    width: 90%;
+  }
+  .paragraphCarrossel {
+    color: white;
+    margin-left: 5%;
+    width: 90%;
   }
 }
 * {
